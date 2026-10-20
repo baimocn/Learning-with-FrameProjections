@@ -9,7 +9,7 @@ import sys
 import os
 from scipy.interpolate import interp1d
 import torch
-import pickle5 as cp
+import pickle as cp
 from torch.utils.data import Dataset, DataLoader
 from data_preprocess.data_preprocess_utils import get_sample_weights, opp_sliding_window, normalize, train_test_val_split, get_dataset_path
 from data_preprocess.base_loader import base_loader, base_loader_isoalign
